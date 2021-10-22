@@ -2,7 +2,8 @@ const styles = theme => ({
   details: {
     display: 'flex',
     alignItems: 'center',
-    background: theme.palette.background.primary,
+    backgroundColor: '#1c1c1c',
+    border: '1px solid #ffb805',
   },
   detailsPaused: {
     display: 'flex',

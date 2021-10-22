@@ -16,7 +16,6 @@ import {
 
 const styles = theme => ({
   appBar: {
-    display: 'flex',
     border: '0',
     borderRadius: '3px',
     padding: '0.625rem 0',
@@ -216,7 +215,8 @@ const styles = theme => ({
     overflow: 'visible',
   },
   logo: {
-    marginRight: '12px',
+    display: 'flex',
+    alignItems: 'center',
   },
   middleNav: {
     display: 'flex',

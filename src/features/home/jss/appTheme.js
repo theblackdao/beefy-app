@@ -5,27 +5,27 @@ const createThemeMode = isNightMode =>
     palette: {
       type: isNightMode ? 'dark' : 'light',
       background: {
-        default: isNightMode ? '#242332' : '#fbf9f6',
+        default: isNightMode ? '#000000' : '#242332',
         paper: isNightMode ? '#606077' : '#fff',
-        primary: isNightMode ? '#505067' : '#FBF6F0',
-        secondary: isNightMode ? '#3B3A4D' : '#F8F2EC',
+        primary: isNightMode ? '#ffb805' : '#FBF6F0',
+        secondary: isNightMode ? '#ffb805' : '#F8F2EC',
         extra: isNightMode ? '#242332' : '#FBF6F0',
         dark: isNightMode ? '#2B2A3D' : '#999',
         paused: isNightMode ? '#2B2A5A' : '#FCE57E',
         retired: isNightMode ? '#d32f2f' : '#e57373',
-        hover: isNightMode ? '#2B2A3D' : '#EFE6DC',
+        hover: isNightMode ? '#000' : '#000',
         border: isNightMode ? '#2B2A3D' : '#DED9D5',
         overlay: isNightMode ? 'rgba(0, 0, 0, 0.75)' : 'rgba(255, 255, 255, 0.75)',
       },
       primary: {
-        main: isNightMode ? '#fff' : '#000',
+        main: isNightMode ? '#ffffff' : '#000000',
       },
       secondary: {
-        main: isNightMode ? '#fff' : '#F8F2EC',
+        main: isNightMode ? '#ffffff' : '#000000',
       },
       text: {
-        primary: isNightMode ? '#fff' : '#000',
-        secondary: isNightMode ? '#B0B0DD' : '#00000066',
+        primary: isNightMode ? '#ffffff' : '#000000',
+        secondary: isNightMode ? '#ffffff' : '#000000',
       },
     },
     overrides: {

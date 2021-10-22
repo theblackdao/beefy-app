@@ -13,7 +13,7 @@ const pastureStyle = theme => ({
     width: '50rem',
     height: '50rem',
     borderRadius: '50%',
-    backgroundColor: '#78b388',
+    backgroundColor: '#ffffff',
   },
   pastureCenterBg: {
     position: 'absolute',
@@ -22,7 +22,7 @@ const pastureStyle = theme => ({
     width: '100vw',
     height: '30rem',
     borderRadius: '50%',
-    backgroundColor: '#5a8f69',
+    backgroundColor: '#ffb805',
   },
   pastureCenterFg: {
     position: 'absolute',
@@ -31,7 +31,7 @@ const pastureStyle = theme => ({
     width: '70vw',
     height: '30rem',
     borderRadius: '50%',
-    backgroundColor: '#78b388',
+    backgroundColor: '#ffffff',
   },
   pastureRight: {
     position: 'absolute',
@@ -40,7 +40,7 @@ const pastureStyle = theme => ({
     width: '60rem',
     height: '60rem',
     borderRadius: '50%',
-    backgroundColor: '#5a8f69',
+    backgroundColor: '#ffb805',
   },
 });
 

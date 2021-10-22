@@ -13,27 +13,16 @@ const Footer = () => {
   return (
     <div className={classes.root}>
       <div className={classes.column}>
-        <div className={classes.title}>beefy.finance</div>
+        <div className={classes.title}>Resources</div>
         <a
-          href="https://docs.beefy.finance"
+          href="https://docs.blk.finance/"
           target="_blank"
           rel="noopener noreferrer"
           className={classes.link}
         >
           <i className={`fas fa-book ${classes.linkIcon}`}></i>
-          <span>docs</span>
+          <span>whitepaper</span>
         </a>
-
-        <a
-          href="https://medium.com/beefyfinance"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={classes.link}
-        >
-          <i className={`fab fa-medium ${classes.linkIcon}`}></i>
-          <span>{t('news')}</span>
-        </a>
-
         <a
           href="https://github.com/beefyfinance"
           target="_blank"
@@ -41,40 +30,19 @@ const Footer = () => {
           className={classes.link}
         >
           <i className={`fab fa-github ${classes.linkIcon}`}></i>
-          <span>{t('source')}</span>
+          <span>Github</span>
         </a>
       </div>
 
       <div className={classes.column}>
-        <div className={classes.title}>{t('products')}</div>
+        <div className={classes.title}>Contact Us</div>
         <a
-          href="https://gov.beefy.finance"
+          href="mailto:support@blk.finance"
           target="_blank"
           rel="noopener noreferrer"
           className={classes.link}
         >
-          <i className={`fas fa-landmark ${classes.linkIcon}`}></i>
-          <span>gov</span>
-        </a>
-
-        <a
-          href="https://vote.beefy.finance"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={classes.link}
-        >
-          <i className={`fas fa-vote-yea ${classes.linkIcon}`}></i>
-          <span>vote</span>
-        </a>
-
-        <a
-          href="https://app.beefy.finance"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={classes.link}
-        >
-          <i className={`fas fa-hand-holding-usd ${classes.linkIcon}`}></i>
-          <span>app</span>
+          <span>support@blk.finance</span>
         </a>
       </div>
 
@@ -91,23 +59,32 @@ const Footer = () => {
           <span>twitter</span>
         </a>
         <a
-          href="https://t.me/beefyfinance"
+          href="https://www.facebook.com/BLKDAO"
           target="_blank"
           rel="noopener noreferrer"
           className={classes.link}
         >
-          <i className={`fab fa-telegram ${classes.linkIcon}`}></i>
+          <i className={`fab fa-facebook ${classes.linkIcon}`}></i>
 
-          <span>telegram</span>
+          <span>facebook</span>
         </a>
         <a
-          href="https://discord.gg/yq8wfHd"
+          href="https://www.instagram.com/theblackdao"
           target="_blank"
           rel="noopener noreferrer"
           className={classes.link}
         >
-          <i className={`fab fa-discord ${classes.linkIcon}`}></i>
-          <span>discord</span>
+          <i className={`fab fa-instagram ${classes.linkIcon}`}></i>
+          <span>instagram</span>
+        </a>
+        <a
+          href="https://github.com/beefyfinance"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={classes.link}
+        >
+          <i className={`fab fa-github ${classes.linkIcon}`}></i>
+          <span>github</span>
         </a>
       </div>
     </div>

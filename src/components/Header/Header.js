@@ -34,19 +34,19 @@ const Header = ({ links, isNightMode, setNightMode }) => {
       <Toolbar className={classes.container}>
         <Link to={`/${chain}`}>
           <Button className={classes.title}>
-            <Hidden xsDown>
+            <div className={classes.logo}>
               <img
                 alt="BIFI"
-                src={require(`images/BIFI-logo.svg`)}
-                height={'40px'}
+                src={require(`images/Blockchain.png`)}
+                height={'80px'}
                 className={classes.logo}
               />
-              beefy.finance
-            </Hidden>
+              THE BLACK DAO
+            </div>
             <Hidden smUp>
               <img
                 alt="BIFI"
-                src={require(`images/BIFI-logo.svg`)}
+                src={require(`images/Blockchain.png`)}
                 height={'35px'}
                 className={classes.logo}
               />
@@ -62,9 +62,6 @@ const Header = ({ links, isNightMode, setNightMode }) => {
             {renderLink('forum', t('forum'), 'comments', classes)}
           </Hidden>
           {renderLink('buy', t('buy'), 'dollar-sign', classes)}
-          <Link className={classes.btnBoost} to={`/${chain}/stake`}>
-            <img alt="Boost" src={require('images/stake/boost.svg')} />
-          </Link>
         </div>
 
         <Hidden smDown implementation="css">
