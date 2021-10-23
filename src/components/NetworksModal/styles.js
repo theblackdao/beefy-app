@@ -7,6 +7,8 @@ const styles = theme => ({
     top: '8px',
   },
   modalInner: {
+    backgroundColor: '#1c1c1c',
+    border: '1px solid #ffb805',
     '@media (min-width:464px)': {
       padding: '16px',
     },
