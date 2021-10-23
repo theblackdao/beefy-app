@@ -2,7 +2,7 @@ export const avalanchePools = [
   {
     id: 'avax-bifi-maxi',
     logo: 'single-assets/BIFI.png',
-    name: 'BIFI Maxi',
+    name: 'BLKD Maxi',
     token: 'BIFI',
     tokenDescription: 'Beefy.Finance',
     tokenAddress: '0xd6070ae98b8069de6B494332d1A1a81B6179D960',

@@ -4,7 +4,8 @@ const styles = theme => ({
     padding: 25,
     marginBottom: 25,
     textAlign: 'center',
-    color: theme.palette.primary.main,
+    color: '#000000',
+    fontWeight: 'bold',
     '& > :last-child': {
       marginBottom: 0,
     },

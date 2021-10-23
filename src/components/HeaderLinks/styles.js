@@ -218,7 +218,7 @@ const styles = theme => ({
     fontSize: '14px',
     fontWeight: 'bold',
     backgroundColor: theme.palette.background.secondary,
-    color: '#fff',
+    color: '#000000',
     '&:hover': {
       backgroundColor: theme.palette.background.border,
     },

@@ -23,7 +23,7 @@
   "Vault-ApproveButton": "Aprovar",
   "Vault-ApprovalSuccess": "Aprovado com sucesso",
   "Vault-ApprovalError": "Erro ao aprovar: {{error}}",
-  "Vault-BifiBuyback": "BIFI Buyback {{amount}}/dia",
+  "Vault-BifiBuyback": "BLKD Buyback {{amount}}/dia",
   "Vault-DepositButton": "Depositar",
   "Vault-DepositButtonAll": "Depositar tudo",
   "Vault-DepositTokensNote": "Receberá {{mooToken}} como recibo do seu activo {{assetToken}}. Este recibo é necessário para resgatar o seu {{assetToken}}, pelo que nunca deverá negociar ou transferir os seus {{mooToken}} para estranhos!",

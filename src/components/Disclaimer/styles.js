@@ -12,7 +12,8 @@ const styles = theme => ({
     background: theme.palette.background.secondary,
     marginBottom: '2rem',
     fontWeight: 900,
-    color: theme.palette.text.primary,
+    color: '#000000',
+    fontWeight: 'bold',
   },
 });
 
